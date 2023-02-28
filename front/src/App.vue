@@ -1,12 +1,15 @@
 <template>
-  Hello
+  <upload-form/>
 </template>
 
 <script>
 
+import UploadForm from "@/components/UploadForm";
+
 export default {
   name: 'App',
   components: {
+    UploadForm
   }
 }
 </script>
